@@ -1,0 +1,148 @@
+<!-- Create a static search page for the product using HTML and CSS. Refer the below user stories:
+Search Result
+Filter
+Sort Options
+
+https://xd.adobe.com/view/2409336a-0d1e-4f89-9b6c-1f9d1da0f2db-715a/screen/dddcd560-382b-4412-a00b-c5edb322b69f/specs/ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web intern-1</title>
+    <link rel="stylesheet" href="productSearch.css">
+</head>
+<body>
+    <header>
+        <span class="logo-span"> 
+            <a class="logo-text" href="#">e!</a> 
+        </span>
+           
+          <span class="login-signup">
+            <a href="#" class="login-text">Login</a>
+            <a href="#" class="signup">Create an account</a>
+          </span>
+       
+    </header>
+    <main>
+        <section>
+             <h2 class="filter-text">Breakfast Places in Mumbai</h2>
+            <article class="filter-article">
+                <p class="left-filter-label">Filters</p>
+               
+                <div class="location-filter">
+                    <p class="select-location-txt">Select Location</p>
+                    <select name="location-dropdown" id="location-filter">
+                        <option value="location-item" default>Select Location </option>
+                        <option value="location-item">Wasi</option>
+                        <option value="location-item">Andheri</option>
+                        <option value="location-item">Chaupati</option>
+                    </select>
+                </div>
+
+                <div class="cuisine-filter">
+                    <p class="cusine-txt">Cuisine</p>
+                    <input type="checkbox" name="north-indian" id="north-indian">
+                    <label for="north-indian">North Indian</label><br>
+                    <input type="checkbox" name="south-indian" id="south-indian">
+                    <label for="south-indian">South Indian</label><br>
+                    <input type="checkbox" name="chinese" id="chinese">
+                    <label for="chinese">Chinese</label><br>
+                    <input type="checkbox" name="fast-food" id="fast-food">
+                    <label for="north-indian">Fast Food</label><br>
+                    <input type="checkbox" name="street-food" id="street-food">
+                    <label for="street-food">Street Food</label>
+                    
+                </div>
+
+                <div class="costForTwo">
+                    <p class="costfortwo-txt">Cost For Two</p>
+                    <input type="radio" name="costfortwo" id="less-500">
+                    <label for="costfortwo">Less than `500</label><br>
+                    <input type="radio" name="costfortwo" id="500to1000">
+                    <label for="costfortwo">`500 to `1000</label><br>
+                    <input type="radio" name="costfortwo" id="1000to1500">
+                    <label for="costfortwo">`1000 to `1500</label><br>
+                    <input type="radio" name="costfortwo" id="1500to2000">
+                    <label for="costfortwo">`1500 to `2000</label><br>
+                    <input type="radio" name="costfortwo" id="2000plus">
+                    <label for="costfortwo">`2000+</label>
+
+
+                </div>
+
+                
+                <div class="sort">
+                    <p class="sort-txt">Sort</p>
+                    <input type="radio" name="sort" id="sortlow">
+                    <label for="sort">Price low to high</label><br>
+                    <input type="radio" name="sort" id="sorthigh">
+                    <label for="sort">Price high to low</label><br>
+                 
+
+
+                </div>
+
+
+                
+
+            </article>
+            <article class="resultcard1-article">
+                <img  class="img-cuisine" src="./images/shutterstock_1154073754.png" alt="result-img-1">
+                <span class="hotel-details">
+                    <p class="hotel-name">The Big Chill Cakery</p>
+                    <p>Fort</p>
+                    <address>Shop 1, Plot D, Samruddhi Complex, Chincholi …</address>
+                </span>
+                <br>
+                <br>
+                <hr>
+                <br>
+                
+             
+                   <table>
+                    <td class="label-text">Cusines:
+                        
+                    </td>
+                    <td class="cell-value">Bakery</td>
+                    </table>
+                    <table>
+                    <td class="label-text">Cost for Two:</td>
+                    <td class="cell-value">₹700</td>
+                   </table>
+            
+            </article>
+            
+
+            <article class="resultcard2-article">
+                 <img class="img-cuisine" src="./images/shutterstock_1154073754.png" alt="result-img-2">
+                <span class="hotel-details">
+                    <p class="hotel-name">The Big Chill Cakery</p>
+                    <p>Fort</p>
+                    <address>Shop 1, Plot D, Samruddhi Complex, Chincholi …</address>
+                </span>
+                <br>
+                <br>
+                <hr>
+                <br>
+                
+             
+                   <table>
+                    <td class="label-text">Cusines:
+                        
+                    </td>
+                    <td class="cell-value">Bakery</td>
+                    </table>
+                    <table>
+                    <td class="label-text">Cost for Two:</td>
+                    <td class="cell-value">₹700</td>
+                   </table>
+            
+            </article>
+
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>

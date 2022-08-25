@@ -1,0 +1,135 @@
+header {
+    background-color: #CE0505;
+    height: 80px;
+    position: relative;
+
+}
+
+.logo-span {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    left: 102px;
+    text-align: center;
+}
+
+.logo-text {
+    color: #CE0505;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+span {
+    top: 30px;
+    position: absolute;
+}
+
+.login-signup {
+    right: 200px;
+    word-spacing: 10px;
+
+}
+
+
+.signup {
+    border: 1px solid white;
+    padding: 4px;
+    word-spacing: none;
+    color: white;
+    text-decoration: none;
+}
+
+.login-text {
+    color: white;
+    text-decoration: none;
+
+}
+
+section {
+    position: relative;
+}
+
+article {
+    position: absolute;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+
+.filter-text {
+    left: 113px;
+    position: absolute;
+    top: 4px;
+    color: #192F60
+}
+
+.filter-article {
+    top: 100px;
+    left: 113px;
+    width: 260px;
+    height: 682px;
+    padding: 10px;
+    line-height: 25px;
+}
+
+
+.resultcard1-article {
+    top: 100px;
+    left: 418px;
+    width: 794px;
+    height: 291px;
+    padding: 10px;
+
+}
+
+.resultcard2-article {
+    top: 420px;
+    left: 418px;
+    width: 794px;
+    height: 291px;
+    padding: 10px;
+}
+
+table {
+    line-height: 20px
+}
+
+.cell-value {
+    left: 140px;
+    position: absolute;
+}
+
+.hotel-details {
+
+    left: 250px;
+    top: -30px;
+}
+
+.hotel-name {
+    color: #192F60;
+    font: normal normal 600 30px/46px Poppins;
+}
+
+.img-cuisine {
+    border-radius: 4px;
+}
+
+.left-filter-label {
+    font: normal normal 600 18px/27px Poppins;
+    color: #192F60;
+}
+
+.location-filter {
+    font: normal normal normal 14px/21px Poppins;
+
+    color: #8C96AB;
+}
+
+.select-location-txt,
+.cusine-txt,
+.costfortwo-txt,
+.sort-txt {
+    font: normal normal normal 14px/21px Poppins;
+
+}
